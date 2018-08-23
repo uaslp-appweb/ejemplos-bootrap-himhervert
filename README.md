@@ -105,3 +105,25 @@ Clase .lead (texto estilizado)
     .d.inline-block
 
     .d - {sm|md|lg} - {none|inline|block|inline-block} 
+
+# Componentes
+
+<h5>Fecha:23/08/2018</h5>
+
+* Formularios
+* Tablas
+* Modales
+* Alertas
+* Carruseles
+
+*Formularios*
+
+Cada Elemento requiere un clase del tipo .form-control para darle un estilo en bootstrap
+    
+    <div class="form-control"></div>
+
+Una clase .form-group para agrupar elementos juntos en un mismo grupo.
+
+    <div class="form-group"></div>
+
+    
