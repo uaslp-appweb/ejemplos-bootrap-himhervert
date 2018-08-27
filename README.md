@@ -129,6 +129,8 @@ Una clase .form-group para agrupar elementos juntos en un mismo grupo.
 
 #Validación de Formularios
 
+<h5>Fecha:27/08/2018</h5>
+
 La validaicon puede ser de 2 formas
 
 a) Default(navegador/HTML5)
