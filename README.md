@@ -126,4 +126,30 @@ Una clase .form-group para agrupar elementos juntos en un mismo grupo.
 
     <div class="form-group"></div>
 
+
+#Validación de Formularios
+
+La validaicon puede ser de 2 formas
+
+a) Default(navegador/HTML5)
     
+    required...
+
+b) Personalizado(Bootstrap, JavaScript, jQuery)
+
+*Bootstrap*
+
+    * .form.needs-validation
+    * .valid-feedback
+    * .invalid-feedback
+
+Al obtener estos eventos se deben de recuperar con JavaScript
+
+    addEventListener('submit',function(evento){
+        if(formulario.checkValidity()===false)
+            evento.preventDefault();
+    }
+    formulario.classList.add('was-validated');
+
+
+
