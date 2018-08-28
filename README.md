@@ -154,4 +154,49 @@ Al obtener estos eventos se deben de recuperar con JavaScript
     formulario.classList.add('was-validated');
 
 
+# Alertas y Modales
 
+<h5>Fecha:28/08/2018</h5>
+
+*ALERT*
+
+Cuenta por default las clases
+
+    button.close
+    .data-dismiss="alert"
+
+todo debe estar encerrado en un div
+y puede llevar colores de bootstrap
+
+    .alert
+    .alert-warning
+    .alert-heading
+
+*MODAL*
+
+Contiene un Encabezado, contenido y pie de pagina.
+Cuenta con las clases:
+
+    button.close
+    .data-dismiss="modal"
+
+    .modal-header
+    .modal-body
+    .modal-footer
+
+    .modal id="mi-modal"
+
+Requiere un boton para abrir el modal
+
+    button.data-toggle="modal"
+    data-target="#mi-modal"
+
+Cuenta con los botones de cancelar y aceptar para decidir que acción reallizar con el modal
+
+    .close
+    .data-dismiss="modal"
+
+La "X" para cerrar el modal o alert puede ser con la el tipo:
+
+    times
+    
