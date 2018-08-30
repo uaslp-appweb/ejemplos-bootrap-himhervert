@@ -200,3 +200,53 @@ La "X" para cerrar el modal o alert puede ser con la el tipo:
 
     times
     
+
+#Navbar
+
+<h5>Fecha:30/08/2018</h5>
+
+||Logo|Inicio|Servicios|Contacto||
+
+*Contenedor* 
+
+    div.navbar
+
+*Logo*
+    
+    a.navbar-brand
+*Menu* (InicioServicios|Contacto)
+
+    ul.navbar-nav
+
+*Items*
+
+    li.nav-item
+
+*Link*
+
+    a.nav-link
+    
+*Colores*
+
+    .navbar-light
+    .navbar-dark
+
+*Responsibidad*
+
+    .navbar-expand-md
+
+*Boton de Hamburguesa*
+<hr>
+Toggler = Intercambio de estado.
+
+    span.navbar-toggler-icon
+    button.navbar-toggler
+    data-toggle="collapse"
+    data-target="
+
+Todos los elementos que vayan dentro del boton deben de estar en un div con un id
+    
+    id ="miMenu"
+    div.collapse
+    .navbar-collapse
+    #miMenu
