@@ -250,3 +250,47 @@ Todos los elementos que vayan dentro del boton deben de estar en un div con un i
     div.collapse
     .navbar-collapse
     #miMenu
+
+
+## Carrusel
+
+##### Fecha:31/08/2018
+
+<p>Sección para llamar la atención del usuario, generalmente se maneja por imagenes y se muestran una a la vez.</p>
+<p>Tambien cuenta con controles que permiten cambiar de imagen.</p>
+
+*Contenedor*
+
+    div.carousel
+    .slide
+
+    data-ride="carousel"
+    data-interval="1000"
+    id="#Mi-Carousel"
+
+*Contenido de muestra*
+
+    div.carousel-inner
+
+**Cada imagen se maneja como:**
+
+    div.carousel-item
+    
+    * El primer item debe de llevar la clase: *
+    .active
+**Texto para cada imagen**
+
+    div.caroulser-caption
+
+**Boton anterior/siguiente**
+
+    a.carousel-control-next
+    a.carousel-control-pre
+
+**Boton de seleccionar indice**
+
+    ol/ul.carousel-indicators
+        
+        li.active
+            data-target="#Mi-Carousel"
+            data-slide-to="0"
