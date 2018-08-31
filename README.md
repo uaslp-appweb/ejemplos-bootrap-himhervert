@@ -13,7 +13,7 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
     <li>992px <= Large < 1200px</li>
     <li>1200px <= Extra Large</li>
 </ul>
-
+ 
 <h5>Fecha:17/08/2018</h5>
 #Ejercicio
 <p>
