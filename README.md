@@ -4,7 +4,8 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
 2018/2019-1
 
 # Bootstrap
-<h5>Fecha:16/08/2018</h5>
+#####Fecha:16/08/2018
+
 <h3> Medidas </h3>
 <ul>
     <li>Extra Small < 576px</li>
@@ -14,14 +15,14 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
     <li>1200px <= Extra Large</li>
 </ul>
  
-<h5>Fecha:17/08/2018</h5>
+#####Fecha:17/08/2018
 #Ejercicio
 <p>
 1) Crear una malla que ocupe tamaño mediano y que se adapte a 2x2 en tamaño pequeño
 2) Crear una malla que ocupe 2x4 en tamaño pequeño y de 4x2 en extra-pequeño
 </p>
 
-<h5>Fecha:20/08/2018</h5>
+#####Fecha:20/08/2018
 #Alineamiento
 <ul>
 <li>Vertical</li>
@@ -59,7 +60,7 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
         5 - 3 rem
         auto
 
-<h5>Fecha:21/08/2018</h5>
+#####Fecha:21/08/2018
 
 #Tipografia
     
@@ -108,7 +109,7 @@ Clase .lead (texto estilizado)
 
 # Componentes
 
-<h5>Fecha:23/08/2018</h5>
+#####Fecha:23/08/2018
 
 * Formularios
 * Tablas
@@ -129,7 +130,7 @@ Una clase .form-group para agrupar elementos juntos en un mismo grupo.
 
 #Validación de Formularios
 
-<h5>Fecha:27/08/2018</h5>
+#####Fecha:27/08/2018
 
 La validaicon puede ser de 2 formas
 
@@ -156,7 +157,7 @@ Al obtener estos eventos se deben de recuperar con JavaScript
 
 # Alertas y Modales
 
-<h5>Fecha:28/08/2018</h5>
+#####Fecha:28/08/2018
 
 *ALERT*
 
@@ -203,7 +204,7 @@ La "X" para cerrar el modal o alert puede ser con la el tipo:
 
 #Navbar
 
-<h5>Fecha:30/08/2018</h5>
+#####Fecha:30/08/2018
 
 ||Logo|Inicio|Servicios|Contacto||
 
@@ -294,3 +295,38 @@ Todos los elementos que vayan dentro del boton deben de estar en un div con un i
         li.active
             data-target="#Mi-Carousel"
             data-slide-to="0"
+
+## Tarjetas (Cards)
+
+##### Fecha:03/09/2018
+
+Contiene un encabezado, un contenido y un pie de página.
+
+La unica desventaja es que no es responsivo, pero se pueden trabajar varias tarjetas en una sola ventana.
+
+    div.card
+        >
+            div.card-header
+            img.card-img-{top|bottom}
+            El body puede llevar dentro una imagen
+            div.card-body
+            div.card-footer
+
+El uso mas comun para este elemento, es para mostrar algun producto. Tienen la ventaja es brindar una estructura para acomodar tarjetas con diferentes contenidos.
+
+Cuando se usa el elemento
+> div.card-group
+
+Acomoda diversas tarjetas con el misma altura.
+
+El elemento:
+>div.card-desk
+
+Permite que los elementos esten acomodados de diversos tamaños.
+
+El elemento:
+
+    div.card-columns
+
+Permite que los elementos sean acomodados de arriba hacia abajo, continuando de izquierda a derecha.
+
