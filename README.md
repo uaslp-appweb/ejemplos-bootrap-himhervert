@@ -330,3 +330,17 @@ El elemento:
 
 Permite que los elementos sean acomodados de arriba hacia abajo, continuando de izquierda a derecha.
 
+
+## Acordeón (Collapse)
+##### Fecha:04/09/2018
+
+El acordeón permite ocultar elementos cuando se desee.
+
+    div.card
+        a data-toggle="collapse"
+        href="#id"
+        div.card-header
+        div.collapse
+        div.card-body
+    /div
+
