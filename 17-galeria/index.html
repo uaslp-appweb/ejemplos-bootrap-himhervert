@@ -16,20 +16,19 @@
 <body>
     <div class="container">
         <h1>Galeria de imágenes</h1>
-        <div class="card-columns">
-            <div class="card">
+        <div class="card-columns" id="grupo-imagenes">
+            <!-- <div class="card">
                 <a href="#modal1" data-toggle="modal">
                     <img src="img/1.jpg" alt="" class="card-img-top">
                 </a>
                 <div class="modal fade" id="modal1">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content"><img src="img/1.jpg" alt="" class="img-fluid"></div>
+                        <div class="modal-content">
+                            <img src="img/1.jpg" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card"><img src="img/2.jpg" alt="" class="card-img-top"></div>
-            <div class="card"><img src="img/3.jpg" alt="" class="card-img-top"></div>
-            <div class="card"><img src="img/4.jpg" alt="" class="card-img-top"></div>
+            </div> -->
         </div>
     </div>
     <!-- Optional JavaScript -->
@@ -40,6 +39,50 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script>
+        var imagenes = document.getElementById('grupo-imagenes');
+
+        function agrega_imagenes() {
+            for (i = 1; i <= 11; i++) {
+                var newCard = document.createElement("div")
+                newCard.setAttribute("class", "card");
+                
+                var newA = document.createElement("a");
+                newA.setAttribute("href", "#modal" + i.toString());
+                newA.setAttribute("data-toggle", "modal");
+
+                var newImg1 = document.createElement("img");
+                newImg1.setAttribute("src", "img/" + i.toString() + ".jpg");
+                newImg1.setAttribute("class", "card-img-top");
+                newA.appendChild(newImg1);
+
+                var newModal = document.createElement("div");
+                newModal.setAttribute("class", "modal fade");
+                newModal.setAttribute("id", "modal" + i.toString());
+
+                var newDialog = document.createElement("div");
+                newDialog.setAttribute("class", "modal-dialog modal-dialog-centered modal-lg");
+
+                var newContent = document.createElement("div");
+                newContent.setAttribute("class", "modal-content");
+
+                var newImg2 = document.createElement("img");
+                newImg2.setAttribute("src", "img/" + i.toString() + ".jpg");
+                newImg2.setAttribute("class", "img-fluid");
+
+                newContent.appendChild(newImg2);
+                newDialog.appendChild(newContent);
+                newModal.appendChild(newDialog);
+
+                newCard.appendChild(newA);
+                newCard.appendChild(newModal);
+
+                imagenes.appendChild(newCard);
+            }
+        }
+
+        agrega_imagenes();
+    </script>
 </body>
 
 </html>
