@@ -4,7 +4,7 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
 2018/2019-1
 
 # Bootstrap
-#####Fecha:16/08/2018
+##### Fecha:16/08/2018
 
 <h3> Medidas </h3>
 <ul>
@@ -15,15 +15,15 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
     <li>1200px <= Extra Large</li>
 </ul>
  
-#####Fecha:17/08/2018
-#Ejercicio
+##### Fecha:17/08/2018
+# Ejercicio
 <p>
 1) Crear una malla que ocupe tamaño mediano y que se adapte a 2x2 en tamaño pequeño
 2) Crear una malla que ocupe 2x4 en tamaño pequeño y de 4x2 en extra-pequeño
 </p>
 
-#####Fecha:20/08/2018
-#Alineamiento
+##### Fecha:20/08/2018
+# Alineamiento
 <ul>
 <li>Vertical</li>
 
@@ -60,9 +60,9 @@ Espacio de trabajo para la materia de aplicaciones web interactiva.
         5 - 3 rem
         auto
 
-#####Fecha:21/08/2018
+##### Fecha:21/08/2018
 
-#Tipografia
+# Tipografia
     
     Encabezados h1-h6
     Displays (1-4)
@@ -109,7 +109,7 @@ Clase .lead (texto estilizado)
 
 # Componentes
 
-#####Fecha:23/08/2018
+##### Fecha:23/08/2018
 
 * Formularios
 * Tablas
@@ -128,9 +128,9 @@ Una clase .form-group para agrupar elementos juntos en un mismo grupo.
     <div class="form-group"></div>
 
 
-#Validación de Formularios
+# Validación de Formularios
 
-#####Fecha:27/08/2018
+##### Fecha:27/08/2018
 
 La validaicon puede ser de 2 formas
 
@@ -157,7 +157,7 @@ Al obtener estos eventos se deben de recuperar con JavaScript
 
 # Alertas y Modales
 
-#####Fecha:28/08/2018
+##### Fecha:28/08/2018
 
 *ALERT*
 
@@ -202,9 +202,9 @@ La "X" para cerrar el modal o alert puede ser con la el tipo:
     times
     
 
-#Navbar
+# Navbar
 
-#####Fecha:30/08/2018
+##### Fecha:30/08/2018
 
 ||Logo|Inicio|Servicios|Contacto||
 
@@ -320,7 +320,7 @@ Cuando se usa el elemento
 Acomoda diversas tarjetas con el misma altura.
 
 El elemento:
->div.card-desk
+> div.card-desk
 
 Permite que los elementos esten acomodados de diversos tamaños.
 
@@ -343,5 +343,3 @@ El acordeón permite ocultar elementos cuando se desee.
         div.collapse
         div.card-body
     /div
-
-
